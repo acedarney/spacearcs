@@ -1,0 +1,177 @@
+Earth Launch to LEO,Earth Launch,1,3,Falcon Heavy,Falcon Heavy,LEO,,,
+Earth Launch to LEO,Earth Launch,1,3,Delta IV-H,Delta IV-H,LEO,,,
+Earth Launch to LEO,Earth Launch,1,3,70 mt,70 mt,LEO,,,
+Earth Launch to LEO,Earth Launch,1,3,100 mt,100 mt,LEO,,,
+Earth Launch to LEO,Earth Launch,1,3,130 mt,130 mt,LEO,,,
+Earth Launch to Suborbital,Earth Launch,1,2,Falcon Heavy,Falcon Heavy,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,1,2,70 mt,70 mt,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,1,2,100 mt,100 mt,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,1,2,130 mt,130 mt,Suborbital,,,
+Suborbital Burn,Propulsive,2,3,LOX/LH2,2442,0.8574,LOX/LH2,0.1,Earth
+Suborbital Burn,Propulsive,2,3,LOX/RP-1,2442,0.8574,LOX/RP-1,0.1,Earth
+Suborbital Burn,Propulsive,2,3,LOX/CH4,2442,0.8574,LOX/CH4,0.1,Earth
+Suborbital Burn,Propulsive,2,3,NTO/MMH,2442,0.8574,NTO/MMH,0.1,Earth
+TLI from LEO,Propulsive,3,5,LOX/LH2,3274,0.3,LOX/LH2,5,Earth
+TLI from LEO,Propulsive,3,5,LOX/RP-1,3274,0.3,LOX/RP-1,5,Earth
+TLI from LEO,Propulsive,3,5,LOX/CH4,3274,0.3,LOX/CH4,5,Earth
+TLI from LEO,Propulsive,3,5,NTO/MMH,3274,0.3,NTO/MMH,5,Earth
+Refuel at LEO Depot,Refuel,3,4,Delta IV-H,14286,,,,
+Refuel at LEO Depot,Refuel,3,4,Falcon 9,2358,,,,
+TLI from LEO Propellant Depot,Propulsive,4,5,LOX/LH2,3274,0.3,LOX/LH2,5,Earth
+TLI from LEO Propellant Depot,Propulsive,4,5,LOX/RP-1,3274,0.3,LOX/RP-1,5,Earth
+TLI from LEO Propellant Depot,Propulsive,4,5,LOX/CH4,3274,0.3,LOX/CH4,5,Earth
+TLI from LEO Propellant Depot,Propulsive,4,5,NTO/MMH,3274,0.3,NTO/MMH,5,Earth
+Lunar Orbit Insertion,Propulsive,5,6,LOX/LH2,924,0.3,LOX/LH2,1,Moon
+Lunar Orbit Insertion,Propulsive,5,6,LOX/RP-1,924,0.3,LOX/RP-1,1,Moon
+Lunar Orbit Insertion,Propulsive,5,6,LOX/CH4,924,0.3,LOX/CH4,1,Moon
+Lunar Orbit Insertion,Propulsive,5,6,NTO/MMH,924,0.3,NTO/MMH,1,Moon
+Lunar Descent from LLO,Planetary Descent,6,8,LOX/LH2,2203,1.66,LOX/LH2,Moon,
+Lunar Descent from LLO,Planetary Descent,6,8,LOX/RP-1,2203,1.66,LOX/RP-1,Moon,
+Lunar Descent from LLO,Planetary Descent,6,8,LOX/CH4,2203,1.66,LOX/CH4,Moon,
+Lunar Descent from LLO,Planetary Descent,6,8,NTO/MMH,2203,1.66,NTO/MMH,Moon,
+Braking,Propulsive,6,7,LOX/LH2,1762,0.3,LOX/LH2,1,Moon
+Braking,Propulsive,6,7,LOX/RP-1,1762,0.3,LOX/RP-1,1,Moon
+Braking,Propulsive,6,7,LOX/CH4,1762,0.3,LOX/CH4,1,Moon
+Braking,Propulsive,6,7,NTO/MMH,1762,0.3,NTO/MMH,1,Moon
+Lunar Descent from Braking,Planetary Descent,7,8,LOX/LH2,441,1.66,LOX/LH2,Moon,
+Lunar Descent from Braking,Planetary Descent,7,8,LOX/RP-1,441,1.66,LOX/RP-1,Moon,
+Lunar Descent from Braking,Planetary Descent,7,8,LOX/CH4,441,1.66,LOX/CH4,Moon,
+Lunar Descent from Braking,Planetary Descent,7,8,NTO/MMH,441,1.66,NTO/MMH,Moon,
+Lunar Surface Mission,Surface Habitation,8,9,Sortie,Sortie,7,,,
+Lunar Ascent,Planetary Ascent,9,10,LOX/LH2,1968,1.97,LOX/LH2,Moon,
+Lunar Ascent,Planetary Ascent,9,10,LOX/RP-1,1968,1.97,LOX/RP-1,Moon,
+Lunar Ascent,Planetary Ascent,9,10,LOX/CH4,1968,1.97,LOX/CH4,Moon,
+Lunar Ascent,Planetary Ascent,9,10,NTO/MMH,1968,1.97,NTO/MMH,Moon,
+TEI from LLO,Propulsive,10,11,LOX/LH2,1196,0.3,LOX/LH2,4,Moon
+TEI from LLO,Propulsive,10,11,LOX/RP-1,1196,0.3,LOX/RP-1,4,Moon
+TEI from LLO,Propulsive,10,11,LOX/CH4,1196,0.3,LOX/CH4,4,Moon
+TEI from LLO,Propulsive,10,11,NTO/MMH,1196,0.3,NTO/MMH,4,Moon
+Direct Entry,Planetary EDL,11,13,Capsule,11.1,0.1,0,0,Earth
+Earth Orbit Insertion,Propulsive,11,12,LOX/LH2,3359,0.3,LOX/LH2,3,Earth
+Earth Orbit Insertion,Propulsive,11,12,LOX/RP-1,3359,0.3,LOX/RP-1,3,Earth
+Earth Orbit Insertion,Propulsive,11,12,LOX/CH4,3359,0.3,LOX/CH4,3,Earth
+Earth Orbit Insertion,Propulsive,11,12,NTO/MMH,3359,0.3,NTO/MMH,3,Earth
+Earth Entry from LEO ,Planetary EDL,12,13,Capsule,8.2,0.1,0,0,Earth
+Earth Launch to LEO,Earth Launch,14,16,Falcon Heavy,Falcon Heavy,LEO,,,
+Earth Launch to LEO,Earth Launch,14,16,Delta IV-H,Delta IV-H,LEO,,,
+Earth Launch to LEO,Earth Launch,14,16,70 mt,70 mt,LEO,,,
+Earth Launch to LEO,Earth Launch,14,16,100 mt,100 mt,LEO,,,
+Earth Launch to LEO,Earth Launch,14,16,130 mt,130 mt,LEO,,,
+Earth Launch to Suborbital,Earth Launch,14,15,Falcon Heavy,Falcon Heavy,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,14,15,70 mt,70 mt,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,14,15,100 mt,100 mt,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,14,15,130 mt,130 mt,Suborbital,,,
+Suborbital Burn,Propulsive,15,16,LOX/LH2,2442,0.8574,LOX/LH2,0.1,Earth
+Suborbital Burn,Propulsive,15,16,LOX/RP-1,2442,0.8574,LOX/RP-1,0.1,Earth
+Suborbital Burn,Propulsive,15,16,LOX/CH4,2442,0.8574,LOX/CH4,0.1,Earth
+Suborbital Burn,Propulsive,15,16,NTO/MMH,2442,0.8574,NTO/MMH,0.1,Earth
+TLI from LEO,Propulsive,16,18,LOX/LH2,3274,0.3,LOX/LH2,5,Earth
+TLI from LEO,Propulsive,16,18,LOX/RP-1,3274,0.3,LOX/RP-1,5,Earth
+TLI from LEO,Propulsive,16,18,LOX/CH4,3274,0.3,LOX/CH4,5,Earth
+TLI from LEO,Propulsive,16,18,NTO/MMH,3274,0.3,NTO/MMH,5,Earth
+Refuel at LEO Depot,Refuel,16,17,Delta IV-H,14286,,,,
+Refuel at LEO Depot,Refuel,16,17,Falcon 9,2358,,,,
+TLI from LEO Propellant Depot,Propulsive,17,18,LOX/LH2,3274,0.3,LOX/LH2,5,Earth
+TLI from LEO Propellant Depot,Propulsive,17,18,LOX/RP-1,3274,0.3,LOX/RP-1,5,Earth
+TLI from LEO Propellant Depot,Propulsive,17,18,LOX/CH4,3274,0.3,LOX/CH4,5,Earth
+TLI from LEO Propellant Depot,Propulsive,17,18,NTO/MMH,3274,0.3,NTO/MMH,5,Earth
+Lunar Orbit Insertion,Propulsive,18,19,LOX/LH2,924,0.3,LOX/LH2,1,Moon
+Lunar Orbit Insertion,Propulsive,18,19,LOX/RP-1,924,0.3,LOX/RP-1,1,Moon
+Lunar Orbit Insertion,Propulsive,18,19,LOX/CH4,924,0.3,LOX/CH4,1,Moon
+Lunar Orbit Insertion,Propulsive,18,19,NTO/MMH,924,0.3,NTO/MMH,1,Moon
+Lunar Descent from LLO,Planetary Descent,19,21,LOX/LH2,2203,1.66,LOX/LH2,Moon,
+Lunar Descent from LLO,Planetary Descent,19,21,LOX/RP-1,2203,1.66,LOX/RP-1,Moon,
+Lunar Descent from LLO,Planetary Descent,19,21,LOX/CH4,2203,1.66,LOX/CH4,Moon,
+Lunar Descent from LLO,Planetary Descent,19,21,NTO/MMH,2203,1.66,NTO/MMH,Moon,
+Braking,Propulsive,19,20,LOX/LH2,1762,0.3,LOX/LH2,1,Moon
+Braking,Propulsive,19,20,LOX/RP-1,1762,0.3,LOX/RP-1,1,Moon
+Braking,Propulsive,19,20,LOX/CH4,1762,0.3,LOX/CH4,1,Moon
+Braking,Propulsive,19,20,NTO/MMH,1762,0.3,NTO/MMH,1,Moon
+Lunar Descent from Braking,Planetary Descent,20,21,LOX/LH2,441,1.66,LOX/LH2,Moon,
+Lunar Descent from Braking,Planetary Descent,20,21,LOX/RP-1,441,1.66,LOX/RP-1,Moon,
+Lunar Descent from Braking,Planetary Descent,20,21,LOX/CH4,441,1.66,LOX/CH4,Moon,
+Lunar Descent from Braking,Planetary Descent,20,21,NTO/MMH,441,1.66,NTO/MMH,Moon,
+Lunar Surface Mission,Surface Habitation,21,22,Sortie,Sortie,7,,,
+Lunar Ascent,Planetary Ascent,22,23,LOX/LH2,1968,1.97,LOX/LH2,Moon,
+Lunar Ascent,Planetary Ascent,22,23,LOX/RP-1,1968,1.97,LOX/RP-1,Moon,
+Lunar Ascent,Planetary Ascent,22,23,LOX/CH4,1968,1.97,LOX/CH4,Moon,
+Lunar Ascent,Planetary Ascent,22,23,NTO/MMH,1968,1.97,NTO/MMH,Moon,
+TEI from LLO,Propulsive,23,24,LOX/LH2,1196,0.3,LOX/LH2,4,Moon
+TEI from LLO,Propulsive,23,24,LOX/RP-1,1196,0.3,LOX/RP-1,4,Moon
+TEI from LLO,Propulsive,23,24,LOX/CH4,1196,0.3,LOX/CH4,4,Moon
+TEI from LLO,Propulsive,23,24,NTO/MMH,1196,0.3,NTO/MMH,4,Moon
+Direct Entry,Planetary EDL,24,26,Capsule,11.1,0.1,0,0,Earth
+Earth Orbit Insertion,Propulsive,24,25,LOX/LH2,3359,0.3,LOX/LH2,3,Earth
+Earth Orbit Insertion,Propulsive,24,25,LOX/RP-1,3359,0.3,LOX/RP-1,3,Earth
+Earth Orbit Insertion,Propulsive,24,25,LOX/CH4,3359,0.3,LOX/CH4,3,Earth
+Earth Orbit Insertion,Propulsive,24,25,NTO/MMH,3359,0.3,NTO/MMH,3,Earth
+Earth Entry from LEO ,Planetary EDL,25,26,Capsule,8.2,0.1,0,0,Earth
+Earth Launch to LEO,Earth Launch,27,29,Falcon Heavy,Falcon Heavy,LEO,,,
+Earth Launch to LEO,Earth Launch,27,29,Delta IV-H,Delta IV-H,LEO,,,
+Earth Launch to LEO,Earth Launch,27,29,70 mt,70 mt,LEO,,,
+Earth Launch to LEO,Earth Launch,27,29,100 mt,100 mt,LEO,,,
+Earth Launch to LEO,Earth Launch,27,29,130 mt,130 mt,LEO,,,
+Earth Launch to Suborbital,Earth Launch,27,28,Falcon Heavy,Falcon Heavy,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,27,28,70 mt,70 mt,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,27,28,100 mt,100 mt,Suborbital,,,
+Earth Launch to Suborbital,Earth Launch,27,28,130 mt,130 mt,Suborbital,,,
+Suborbital Burn,Propulsive,28,29,LOX/LH2,2442,0.8574,LOX/LH2,0.1,Earth
+Suborbital Burn,Propulsive,28,29,LOX/RP-1,2442,0.8574,LOX/RP-1,0.1,Earth
+Suborbital Burn,Propulsive,28,29,LOX/CH4,2442,0.8574,LOX/CH4,0.1,Earth
+Suborbital Burn,Propulsive,28,29,NTO/MMH,2442,0.8574,NTO/MMH,0.1,Earth
+TLI from LEO,Propulsive,29,31,LOX/LH2,3274,0.3,LOX/LH2,5,Earth
+TLI from LEO,Propulsive,29,31,LOX/RP-1,3274,0.3,LOX/RP-1,5,Earth
+TLI from LEO,Propulsive,29,31,LOX/CH4,3274,0.3,LOX/CH4,5,Earth
+TLI from LEO,Propulsive,29,31,NTO/MMH,3274,0.3,NTO/MMH,5,Earth
+Refuel at LEO Depot,Refuel,29,30,Delta IV-H,14286,,,,
+Refuel at LEO Depot,Refuel,29,30,Falcon 9,2358,,,,
+TLI from LEO Propellant Depot,Propulsive,30,31,LOX/LH2,3274,0.3,LOX/LH2,5,Earth
+TLI from LEO Propellant Depot,Propulsive,30,31,LOX/RP-1,3274,0.3,LOX/RP-1,5,Earth
+TLI from LEO Propellant Depot,Propulsive,30,31,LOX/CH4,3274,0.3,LOX/CH4,5,Earth
+TLI from LEO Propellant Depot,Propulsive,30,31,NTO/MMH,3274,0.3,NTO/MMH,5,Earth
+Lunar Orbit Insertion,Propulsive,31,32,LOX/LH2,924,0.3,LOX/LH2,1,Moon
+Lunar Orbit Insertion,Propulsive,31,32,LOX/RP-1,924,0.3,LOX/RP-1,1,Moon
+Lunar Orbit Insertion,Propulsive,31,32,LOX/CH4,924,0.3,LOX/CH4,1,Moon
+Lunar Orbit Insertion,Propulsive,31,32,NTO/MMH,924,0.3,NTO/MMH,1,Moon
+Lunar Descent from LLO,Planetary Descent,32,34,LOX/LH2,2203,1.66,LOX/LH2,Moon,
+Lunar Descent from LLO,Planetary Descent,32,34,LOX/RP-1,2203,1.66,LOX/RP-1,Moon,
+Lunar Descent from LLO,Planetary Descent,32,34,LOX/CH4,2203,1.66,LOX/CH4,Moon,
+Lunar Descent from LLO,Planetary Descent,32,34,NTO/MMH,2203,1.66,NTO/MMH,Moon,
+Braking,Propulsive,32,33,LOX/LH2,1762,0.3,LOX/LH2,1,Moon
+Braking,Propulsive,32,33,LOX/RP-1,1762,0.3,LOX/RP-1,1,Moon
+Braking,Propulsive,32,33,LOX/CH4,1762,0.3,LOX/CH4,1,Moon
+Braking,Propulsive,32,33,NTO/MMH,1762,0.3,NTO/MMH,1,Moon
+Lunar Descent from Braking,Planetary Descent,33,34,LOX/LH2,441,1.66,LOX/LH2,Moon,
+Lunar Descent from Braking,Planetary Descent,33,34,LOX/RP-1,441,1.66,LOX/RP-1,Moon,
+Lunar Descent from Braking,Planetary Descent,33,34,LOX/CH4,441,1.66,LOX/CH4,Moon,
+Lunar Descent from Braking,Planetary Descent,33,34,NTO/MMH,441,1.66,NTO/MMH,Moon,
+Lunar Surface Mission,Surface Habitation,34,35,Sortie,Sortie,7,,,
+Lunar Ascent,Planetary Ascent,35,36,LOX/LH2,1968,1.97,LOX/LH2,Moon,
+Lunar Ascent,Planetary Ascent,35,36,LOX/RP-1,1968,1.97,LOX/RP-1,Moon,
+Lunar Ascent,Planetary Ascent,35,36,LOX/CH4,1968,1.97,LOX/CH4,Moon,
+Lunar Ascent,Planetary Ascent,35,36,NTO/MMH,1968,1.97,NTO/MMH,Moon,
+TEI from LLO,Propulsive,36,37,LOX/LH2,1196,0.3,LOX/LH2,4,Moon
+TEI from LLO,Propulsive,36,37,LOX/RP-1,1196,0.3,LOX/RP-1,4,Moon
+TEI from LLO,Propulsive,36,37,LOX/CH4,1196,0.3,LOX/CH4,4,Moon
+TEI from LLO,Propulsive,36,37,NTO/MMH,1196,0.3,NTO/MMH,4,Moon
+Direct Entry,Planetary EDL,37,39,Capsule,11.1,0.1,0,0,Earth
+Earth Orbit Insertion,Propulsive,37,38,LOX/LH2,3359,0.3,LOX/LH2,3,Earth
+Earth Orbit Insertion,Propulsive,37,38,LOX/RP-1,3359,0.3,LOX/RP-1,3,Earth
+Earth Orbit Insertion,Propulsive,37,38,LOX/CH4,3359,0.3,LOX/CH4,3,Earth
+Earth Orbit Insertion,Propulsive,37,38,NTO/MMH,3359,0.3,NTO/MMH,3,Earth
+Earth Entry from LEO ,Planetary EDL,38,39,Capsule,8.2,0.1,0,0,Earth
+Link Group 1,Loiter,3,12,,,,,,
+Link Group 1,Loiter,12,16,,,,,,
+Link Group 1,Loiter,16,25,,,,,,
+Link Group 1,Loiter,25,29,,,,,,
+Link Group 1,Loiter,29,38,,,,,,
+Link Group 2,Loiter,6,10,,,,,,
+Link Group 2,Loiter,10,19,,,,,,
+Link Group 2,Loiter,19,23,,,,,,
+Link Group 2,Loiter,23,32,,,,,,
+Link Group 2,Loiter,32,36,,,,,,
+Link Group 3,Loiter,8,9,,,,,,
+Link Group 3,Loiter,9,21,,,,,,
+Link Group 3,Loiter,21,22,,,,,,
+Link Group 3,Loiter,22,34,,,,,,
+Link Group 3,Loiter,34,35,,,,,,
